@@ -25,7 +25,7 @@
 The only changes made were adding polyfill to the root layout and adding a button with effect code onPress.
 
 **Added code:**
-```
+``` typescript
  <Button
         onPress={async () => {
           const program = Effect.gen(function* () {
